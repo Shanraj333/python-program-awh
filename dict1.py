@@ -1,0 +1,7 @@
+tup1 = ('1', '2', '3', '4', '5')
+tup2 = ('apple', 'bat', 'car', 'dog')
+dict1=dict(zip(reversed(tup1),tup2))
+print(dict1)
+value=list(dict1.values())
+print(value)
+print(value[-2])
